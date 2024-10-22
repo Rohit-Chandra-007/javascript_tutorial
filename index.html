@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning JS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="text-white text-lg font-bold">
+          <a href="#" class="hover:text-gray-400">Momentumias</a>
+        </div>
+        <div class="hidden md:flex space-x-4">
+          <a href="#" class="text-gray-300 hover:text-white">Home</a>
+          <a href="#" class="text-gray-300 hover:text-white">About</a>
+          <a href="#" class="text-gray-300 hover:text-white">Services</a>
+          <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button class="text-gray-300 hover:text-white focus:outline-none">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div>
+      <h1>Learn Javascript with Rohit😂👋</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, itaque
+        tempore blanditiis eligendi assumenda alias laborum fugit numquam
+        dignissimos distinctio asperiores nihil atque ut repellat et tempora,
+        minima obcaecati eum similique. Velit fuga, animi accusantium nostrum
+        optio laboriosam nemo ducimus accusamus non quidem esse amet voluptatum
+        perspiciatis ea fugiat. Tempore.
+      </p>
+    </div>
+    <a href="https://www.google.com" target="_parent">click</a>
+
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis minima
+        totam iusto qui consequatur delectus voluptatem corrupti officia, quas
+        expedita tempora minus aliquid fugit esse quos similique libero veniam
+        eum a ducimus sit labore inventore ad illum. Exercitationem, earum
+        dolore sequi nihil aspernatur repudiandae. Quos, fugiat! Adipisci quos
+        laborum vel?
+      </p>
+
+      <div id="onSubmit" class="flex justify-center mt-4 flex space-x-4">
+        <button
+          type="button"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          onclick="alert('Hello World')"
+        >
+          Submit
+        </button>
+        <!-- foreground color == color in css means change the color of text in button -->
+        <button
+          id="clickMe"
+          type="button"
+          class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Click Me
+        </button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="flex justify-center mt-4 flex space-x-4">
+      <button
+        type="button"
+        class="bg-green-500 font-bold py-2 px-8 rounded-full"
+      >
+        Add to bag
+      </button>
+      <button
+        type="button"
+        class="bg-gray-200 font-bold py-2 px-8 border-2 border-black rounded-lg padding-2"
+      >
+        ❤️ Wishlist
+      </button>
+    </div>
+    <br />
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
