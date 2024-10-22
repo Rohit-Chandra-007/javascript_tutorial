@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <title>Myntra Bag</title>
+</head>
+
+<body>
+    <div class="flex justify-center mt-4 flex space-x-4">
+        <button type="button" class="bg-green-300 font-bold py-2 px-8 rounded-full" onclick="addToCart()">
+            Add to bag
+        </button>
+        <button type="button"
+            class="bg-gray-200 font-bold py-2 px-8 border-2 border-black rounded-lg padding-2 uppercase"
+            onclick="removeFromCart()">
+            Move to Wishlist
+        </button>
+        <button type="button" class="bg-green-300 font-bold py-2 px-8 rounded-full" onclick="doubleCart()">
+            Add 1+1 sale item
+        </button>
+    </div>
+    <br>
+    <div>
+        <h1 id="add-to-cart" class="text-4xl font-bold"></h1>
+    </div>
+</body>
+
+<script src="scripts/add_to_cart.js"></script>
+
+</html>
