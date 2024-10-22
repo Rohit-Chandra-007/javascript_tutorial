@@ -1,3 +1,6 @@
+let welcomeMessage = "Hello, World!";
+console.log(`${welcomeMessage}`);
+
 let display = document.getElementById("display");
 
 function appendToDisplay(value) {
